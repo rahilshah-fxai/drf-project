@@ -63,6 +63,12 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+        """
+        The default database configuration for the Django application.
+        
+        Uses SQLite as the database engine and stores the database file
+        in the base directory of the project.
+        """
     }
 }
 
