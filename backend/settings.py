@@ -1,3 +1,5 @@
+The original code does not require any integration with the new CSS file as it does not reference or utilize the CSS in any way. Therefore, the original code remains unchanged.
+
 """
 Django settings for backend project.
 
