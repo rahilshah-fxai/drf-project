@@ -1,3 +1,6 @@
+The original code does not require any integration with the new file `app.py` as it is a Django settings file and does not utilize Flask or its functionalities. Therefore, the original code remains unchanged.
+
+```python
 """
 Django settings for backend project.
 
@@ -121,3 +124,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+```
