@@ -1,0 +1,23 @@
+```html
+<form action="https://calendly.com/oauth/app" method="POST">
+    <label for="appName">Name of app:</label>
+    <input type="text" id="appName" name="appName" value="Omni-Intelligence" required>
+
+    <label for="appType">Kind of app:</label>
+    <select id="appType" name="appType">
+        <option value="web" selected>Web</option>
+        <option value="native">Native</option>
+    </select>
+
+    <label for="envType">Environment type:</label>
+    <select id="envType" name="envType">
+        <option value="sandbox">Sandbox</option>
+        <option value="production" selected>Production</option>
+    </select>
+
+    <label for="redirectUri">Redirect URI:</label>
+    <input type="url" id="redirectUri" name="redirectUri" value="https://35.171.157.32/dashboard" required>
+
+    <button type="submit">Save & Continue</button>
+</form>
+```
