@@ -1,5 +1,3 @@
-The original code does not require any integration with the new file `about.py.py` as it is a Django settings file and does not utilize Flask functionality. Therefore, the original code remains unchanged.
-
 ```python
 """
 Django settings for backend project.
