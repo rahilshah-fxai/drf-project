@@ -1,5 +1,6 @@
 import React from 'react';
 import './Sidebar.css';
+import RegisterComponent from './RegisterComponent';
 
 const Sidebar = () => {
   const addNumbers = (a, b) => {
@@ -36,67 +37,9 @@ const Sidebar = () => {
       <div className="footer">
         <span>Icons</span>
       </div>
+      <RegisterComponent />
     </div>
   );
 };
 
 export default Sidebar;
-
----
-
-.sidebar {
-  width: 250px;
-  background-color: #2c2c2c;
-  color: white;
-  padding: 20px;
-}
-
-.logo img {
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.search {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
-.menu {
-  margin-bottom: 20px;
-}
-
-.menu-item {
-  padding: 10px;
-  cursor: pointer;
-}
-
-.workspace, .data-source {
-  margin-bottom: 20px;
-}
-
-.upload button {
-  padding: 10px;
-  background-color: #4a4a4a;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.terminal {
-  margin-top: auto;
-}
-
-.omega-terminal {
-  padding: 10px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-.footer {
-  margin-top: 20px;
-  text-align: center;
-}
