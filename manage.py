@@ -17,6 +17,10 @@ def main():
         ) from exc
     execute_from_command_line(sys.argv)
 
+def add_two_numbers(a, b):
+    """Add two numbers and return the result."""
+    return a + b
+
 
 if __name__ == '__main__':
     main()

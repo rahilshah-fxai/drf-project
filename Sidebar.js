@@ -2,6 +2,10 @@ import React from 'react';
 import './Sidebar.css';
 
 const Sidebar = () => {
+  const addNumbers = (a, b) => {
+    return a + b;
+  };
+
   return (
     <div className="sidebar">
       <div className="logo">
